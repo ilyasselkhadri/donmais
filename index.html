@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plateforme de Collecte de Dons</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <marquee><h1>PLATEFORME DE DONATION</h1></marquee>
+  </header>
+  <main>
+    <section class="campaign">
+        <h2>Campagne en Cours</h2>
+        <div class="campaign-details">
+          <h3>Titre de la campagne : " FOURNIR UN LOGEMENT ET SES FOURNITURES "</h3>
+          <p>La construction d'écoles et de maisons pour les groupes défavorisés est un impératif moral et social crucial dans la 
+            quête pour une société plus équitable et inclusive. Cette initiative transcende les simples édifices en offrant des 
+            opportunités d'apprentissage et un refuge sûr aux communautés marginalisées et vulnérables. En effet, ces infrastructures 
+            ne sont pas seulement des symboles de développement physique, mais aussi des catalyseurs de progrès socio-économique. 
+            Cette introduction examinera l'importance de construire des écoles et des maisons pour les groupes défavorisés, mettant 
+            en lumière les bénéfices tangibles et intangibles qu'elles apportent à ces populations et à la société dans son ensemble.</p>
+            <h3>Objectif de collecte</h3>
+          <p>Notre objectif est de récolter 100 000 $ pour financer certains projets visant à construire des écoles et des mosquées 
+            dans le but de fournir des lieux d'étude et de culte. Nous souhaitons également construire des bâtiments anciens et 
+            endommagés afin de les réparer pour les communautés défavorisées à travers le Maroc. Chaque dollar compte dans notre 
+            lutte pour mettre fin à la médiocrité du logement et à l’abordabilité</p>
+          <img src="https://aujourdhui.ma/wp-content/uploads/2016/02/1573574714-2.jpg" width="500" height="350"alt="Campagne Image">
+          <div class="campaign-info">
+            <h3>zones concernées</h3>
+            <ul>
+                <li><strong>Montagnes du Rif :</strong> La région des montagnes du Rif, au nord du Maroc, est confrontée à des difficultés pour fournir des logements adéquats et des infrastructures éducatives, en raison des conditions naturelles difficiles et de l'éloignement des grands centres urbains.</li>
+                <li><strong>Quartiers populaires dans les villes :</strong> il s'agit notamment des quartiers pauvres des villes marocaines telles que Casablanca, Fès et Marrakech, et ils font face à des défis pour fournir des logements adéquats et améliorer la qualité des écoles.</li>
+                <li><strong>Zones rurales reculées :</strong> Certaines zones rurales reculées du Maroc connaissent une pénurie de logements et d'écoles en raison de la négligence et de facteurs géographiques difficiles.</li>
+              </ul>
+            <h3>Impact Vidéo</h3>
+            <a href="https://youtu.be/0CbFrom3Qkk?si=Bjeyx3vY-cWSD4GD"><img src="https://static.vecteezy.com/system/resources/previews/019/879/206/non_2x/video-camera-symbol-video-camera-icon-symbol-illustration-on-transparent-background-free-png.png" width="200" height="200" alt="Facebook"></a>
+            <h4>Prochain Événement</h4>
+            <p>Rejoignez-nous pour une journée de nettoyage des plages le 15 juillet. Ensemble, nous pouvons faire une différence!</p>
+          </div>
+          <div class="donate-now">
+            <h3>Faites un Don Maintenant!</h3>
+            <p>Aidez-nous à atteindre notre objectif de collecte en faisant un don dès maintenant.</p>
+            <button><a href="#sec1">Faire un Donation </a></button>
+            <p>Partagez cette campagne avec vos amis et votre famille:</p>
+            <div class="social-media-icons">
+              <a href="https://web.facebook.com/pagefordonations"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png" width="42" height="42" alt="Facebook"></a>
+              <a href="https://www.instagram.com/donation.deaf.gaza/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/800px-Instagram_icon.png" width="40" height="40" alt="Instagram"></a>
+              <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" width="40" height="40" alt="Whatsapp"></a>
+              <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/1245px-Logo_of_Twitter.svg.png" width="40" height="40" alt="Twitter"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="donation-options">
+        <a name="sec1">
+        <h2>Faire un Donation</h2>
+    </a>
+        <form id="donation-form">
+          <div>
+            <label for="amount">Montant du Donation (USD):</label>
+            <input type="number" id="amount" name="amount" placeholder="Entrez le montant" required>
+          </div>
+          <div>
+            <label for="payment-method">Méthode de Paiement:</label>
+            <select id="payment-method" name="payment-method" required>
+              <option value="">Sélectionnez la méthode de paiement</option>
+              <option value="credit-card">Carte de Crédit</option>
+              <option value="paypal">PayPal</option>
+              <option value="CIH">CIH</option>
+              <option value="bank-transfer">Virement Bancaire</option>
+            </select>
+          </div>
+          <div>
+            <label for="donation-frequency">Fréquence du Donation:</label>
+            <select id="donation-frequency" name="donation-frequency">
+              <option value="one-time">Ponctuel</option>
+              <option value="monthly">Récurrente</option>
+              <option value="annually">Annuel</option>
+            </select>
+          </div>
+          <button type="submit">Donation</button>
+        </form>
+        <div id="thank-you-message" style="display: none;">
+          <p>Merci pour votre générosité!</p>
+        </div>
+      </section>
+  </main>
+  <footer>
+    <p>Contactez-nous pour plus d'informations.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

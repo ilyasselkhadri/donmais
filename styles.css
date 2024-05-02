@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  p{
+    font-size: italic;
+    font-size: 18px;
+  }
+  
+  h2 {
+    color: #ff2e2e;
+    text-align: center;
+  }
+  header,
+  footer {
+    background-color: #2fdcef;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
+  main {
+    padding: 20px;
+  }
+  
+  .donation-options {
+    margin-bottom: 30px;
+  }
+  
+  label,
+  select,
+  input,
+  button {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8b44e2;
+  }
+  
+  button {
+    background-color: #70f504;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0e7703;
+  }
+  
+  .campaign-details {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .campaign-details img {
+    max-width: 100%;
+    height: auto;
+  }
+  
